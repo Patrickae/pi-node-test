@@ -1,0 +1,23 @@
+{
+  "name": "pi-node-test",
+  "version": "1.0.0",
+  "description": "test node app for raspberry pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrickae/pi-node-test.git"
+  },
+  "author": "andy patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrickae/pi-node-test/issues"
+  },
+  "homepage": "https://github.com/Patrickae/pi-node-test#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "weather-js": "^2.0.0"
+  }
+}
