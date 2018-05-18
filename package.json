@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/Patrickae/pi-node-test#readme",
   "dependencies": {
+    "gpio": "^0.2.7",
     "inquirer": "^5.2.0",
-    "onoff": "^3.1.0",
     "weather-js": "^2.0.0"
   }
 }
