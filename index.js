@@ -16,9 +16,9 @@ var gpio4 = gpio.export(4, {
    // read or write to the header right away. Place your logic in this ready
    // function to guarantee everything will get fired properly
    ready: function() {
-    
+    gpio4.on("change", function(val) {
+   // value will report either 1 or 0 (number) when the value changes
+      console.log(val)
+    });
    }
 });
-
-var processPin4 = function(val) { console.log(val); };
-gpio4.on("change", processPin4);
