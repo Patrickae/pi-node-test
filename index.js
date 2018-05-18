@@ -20,8 +20,5 @@ var gpio4 = gpio.export(4, {
    }
 });
 
-gpio4.on("change", function(val) {
-   // value will report either 1 or 0 (number) when the value changes
-   console.log(val)
-});
-
+var processPin4 = function(val) { console.log(val); };
+gpio4.on("change", processPin4);
