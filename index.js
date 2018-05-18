@@ -16,7 +16,7 @@ var gpio4 = gpio.export(4, {
    // read or write to the header right away. Place your logic in this ready
    // function to guarantee everything will get fired properly
    ready: function() {
-    console.log('all good')
+    
    }
 });
 
